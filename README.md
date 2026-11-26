@@ -2,7 +2,7 @@
 
 <img src="assets/banner.png" alt="Enzo Dadalto Moulin — desenvolvedor júnior full stack: PHP, Laravel, Python e JavaScript" width="100%">
 
-**Buscando a primeira vaga CLT júnior, remota** — back-end, front-end ou full stack.
+**Buscando a primeira vaga CLT júnior** — remota, híbrida ou presencial em Vitória/ES — **e freelas** de back-end ou full stack.
 
 Vitória, ES · [LinkedIn](https://www.linkedin.com/in/enzodadaltomoulin) · [E-mail](mailto:dadaltoenzo@gmail.com)
 
