@@ -1,8 +1,9 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Enzo Dadalto Moulin — desenvolvedor júnior full stack: PHP, Laravel, Python e JavaScript" width="100%">
+<img src="assets/banner.png" alt="Enzo Dadalto Moulin — desenvolvedor júnior full stack: PHP, Laravel, Python, JavaScript e SQL" width="100%">
 
-**Buscando a primeira vaga CLT júnior** em back-end, front-end ou full stack — remota, híbrida ou presencial na Grande Vitória/ES. Também aberto a **freelas**.
+**Buscando a primeira vaga CLT júnior** em back-end, front-end ou full stack.<br>
+Remota, híbrida ou presencial na Grande Vitória/ES. Também aberto a **freelas**.
 
 Vitória, ES · [LinkedIn](https://www.linkedin.com/in/enzodadaltomoulin) · [E-mail](mailto:dadaltoenzo@gmail.com)
 
@@ -16,8 +17,8 @@ Python e Laravel — e é o que este perfil reúne.
 
 | Geração | Stack | O que entrega | Estado |
 |:--|:--|:--|:--|
-| **[v3](https://github.com/EnzoMoulin/diretorio-contatos-v3)** | Laravel 13 · Blade · Postgres | listagens por canal com filtro por unidade/setor, folha A4, 444 ramais e API REST no contrato da v2 | em desenvolvimento |
-| **[v2](https://github.com/EnzoMoulin/diretorio-contatos-v2)** | Python stdlib · SQLite | API REST, OAuth Google, 94 testes e fumaça Playwright no CI | pronto; demo a caminho |
+| **[v3](https://github.com/EnzoMoulin/diretorio-contatos-v3)** | Laravel 13 · Blade · Postgres | listagens por canal com filtro por unidade/setor, folha A4, 444 ramais e APIs REST no contrato da v2 | em desenvolvimento |
+| **[v2](https://github.com/EnzoMoulin/diretorio-contatos-v2)** | Python stdlib · SQLite | APIs REST, OAuth Google, 94 testes e fumaça Playwright no CI | pronto; demo a caminho |
 | **v1** | Apps Script · Sheets | MVP original, espelho sanitizado e congelado | privado (código institucional) |
 
 **v3** é a versão atual: Laravel 13 + Blade no mesmo processo que serve HTML e JSON, Postgres no
