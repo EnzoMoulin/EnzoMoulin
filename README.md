@@ -1,9 +1,8 @@
 <div align="center">
 
-# Enzo Dadalto Moulin
+<img src="assets/banner.png" alt="Enzo Dadalto Moulin — desenvolvedor júnior full stack: PHP, Laravel, Python e JavaScript" width="100%">
 
-**Desenvolvedor júnior full stack (em formação)**
-PHP · Laravel · Python · JavaScript
+**Buscando a primeira vaga CLT júnior, remota** — back-end, front-end ou full stack.
 
 Vitória, ES · [LinkedIn](https://www.linkedin.com/in/enzodadaltomoulin) · [E-mail](mailto:dadaltoenzo@gmail.com)
 
