@@ -7,6 +7,8 @@ Remota, híbrida ou presencial na Grande Vitória/ES. Também aberto a **freelas
 
 Vitória, ES · [LinkedIn](https://www.linkedin.com/in/enzodadaltomoulin) · [E-mail](mailto:dadaltoenzo@gmail.com)
 
+[**Roadmap**](https://github.com/users/EnzoMoulin/projects/3) · o que está aberto no v2 e no v3
+
 </div>
 
 Dois anos de estágio de TI no TJES, onde concebi e desenvolvi o MVP do diretório institucional de
