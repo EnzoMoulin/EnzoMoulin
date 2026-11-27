@@ -12,12 +12,15 @@ Vitória, ES · [LinkedIn](https://www.linkedin.com/in/enzodadaltomoulin) · [E-
 </div>
 
 Dois anos de estágio no Laboratório de Inovação e IA do TJES, onde concebi e desenvolvi o MVP do
-diretório institucional de contatos: **1.800+ contatos de 69 comarcas**. O produto evoluiu para três
-gerações — Apps Script, Python e Laravel — e é o eixo deste perfil.
+diretório institucional de contatos: **1.800+ contatos de 69 comarcas**. O produto evoluiu em fases —
+Google Apps Script, Python e Laravel — e é o eixo deste perfil.
 
-## Diretório de Contatos — três gerações
+## Diretório de Contatos
 
-| Geração | Stack | O que entrega | Estado |
+Um produto só, em fases de fundação técnica — não três projetos. Os repositórios ficam separados
+porque a stack muda; cada fase anterior continua pública como evidência.
+
+| Fase | Stack | O que entrega | Estado |
 |:--|:--|:--|:--|
 | **[v3](https://github.com/EnzoMoulin/diretorio-contatos-v3)** | Laravel 13 · Blade · Postgres | listagens por canal com filtro por unidade/setor, folha A4, 444 ramais e APIs REST no contrato da v2 | em desenvolvimento |
 | **[v2](https://github.com/EnzoMoulin/diretorio-contatos-v2)** | Python stdlib · SQLite | APIs REST, OAuth Google, 94 testes e fumaça Playwright no CI | pronto; demo a caminho |
@@ -34,11 +37,12 @@ pernas de CI. O demo público sai no Render free; o repositório já tem a carti
 código institucional; o estudo de caso está no
 [README da v2](https://github.com/EnzoMoulin/diretorio-contatos-v2#estudo-de-caso-v1--v2--v3).
 
-## Outros projetos
+## Será que é golpe?
 
-**[Será que é golpe?](https://github.com/EnzoMoulin/sera-golpe)** — quiz educativo sobre golpes
-digitais em HTML, CSS e JavaScript sem dependências, publicado no GitHub Pages. Atividade
-extensionista do curso de ADS (Gran), pensada para aplicação remota e assíncrona.
+**Segundo produto** — quiz educativo sobre golpes digitais em HTML, CSS e JavaScript sem dependências,
+[publicado no GitHub Pages](https://enzomoulin.github.io/sera-golpe/)
+([código](https://github.com/EnzoMoulin/sera-golpe)). Atividade extensionista do curso de ADS (Gran),
+pensada para aplicação remota e assíncrona.
 
 ## Stack
 
