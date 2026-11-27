@@ -22,8 +22,8 @@ porque a stack muda; cada fase anterior continua pública como evidência.
 
 | Fase | Stack | O que entrega | Estado |
 |:--|:--|:--|:--|
-| **[v3](https://github.com/EnzoMoulin/diretorio-contatos-v3)** | Laravel 13 · Blade · Postgres | listagens por canal com filtro por unidade/setor, folha A4, 444 ramais e APIs REST no contrato da v2 | em desenvolvimento |
-| **[v2](https://github.com/EnzoMoulin/diretorio-contatos-v2)** | Python stdlib · SQLite | APIs REST, OAuth Google, 94 testes e fumaça Playwright no CI | pronto; demo a caminho |
+| **[v3](https://github.com/EnzoMoulin/diretorio-contatos-v3)** | Laravel 13 · Blade · Postgres | listagens por canal com filtro por unidade/setor, impressão em A4, busca de ramais e APIs REST compatíveis com a v2 | em desenvolvimento |
+| **[v2](https://github.com/EnzoMoulin/diretorio-contatos-v2)** | Python stdlib · SQLite | APIs REST, login Google, 94 testes e testes de navegador no CI | pronto; demo a caminho |
 | **v1** | Apps Script · Sheets | MVP original, espelho sanitizado e congelado | privado (código institucional) |
 
 <div align="center">
@@ -35,11 +35,11 @@ porque a stack muda; cada fase anterior continua pública como evidência.
 </div>
 
 **v3** é a versão atual: Laravel 13 + Blade no mesmo processo que serve HTML e JSON, Postgres no
-Neon e CI com Pest, Pint, Larastan, testes de acessibilidade (axe-core, critérios AA) e comparador de contrato. Próximos
-passos: fechar o comparador de `contatos` e o mapa por CEP.
+Neon e CI com Pest, Pint, Larastan, testes de acessibilidade (axe-core, critérios AA) e comparação de contrato entre versões. Próximos
+passos: fechar a comparação de contatos entre as versões e o mapa por comarca.
 
-**v2** é a reescrita em Python só-stdlib: 94 testes, login Google, modo somente-leitura e duas
-pernas de CI. O demo público sai no Render free; o repositório já tem a cartilha de deploy.
+**v2** é a reescrita em Python (só biblioteca padrão): 94 testes, login Google, modo somente-leitura e
+CI em duas configurações. O demo público sai no Render (plano free); o repositório já tem o passo a passo de deploy.
 
 **v1** é o MVP que deu origem a tudo, feito durante o estágio. O repositório é privado por ser
 código institucional; o estudo de caso está no
