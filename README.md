@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Enzo Dadalto Moulin — desenvolvedor júnior full stack: PHP, Laravel, Python, JavaScript e SQL" width="100%">
+<img src="assets/banner.png" alt="Enzo Dadalto Moulin — desenvolvedor full stack júnior: PHP, Laravel, Python, JavaScript e SQL. Vitória, ES." width="100%">
 
 **Buscando a primeira vaga júnior — CLT ou PJ —** em back-end, front-end ou full stack.<br>
 Remota, híbrida ou presencial na Grande Vitória/ES. Também aberto a **freelas**.
@@ -17,12 +17,14 @@ evoluiu em fases — Google Apps Script, Python e Laravel — e é o eixo deste 
 
 ## Diretório de Contatos
 
-Um produto só, em fases de fundação técnica — não três projetos. Os repositórios ficam separados
-porque a stack muda; cada fase anterior continua pública como evidência.
+Reúne telefones, e-mails, WhatsApp e ramais de fóruns e unidades numa consulta só: busca por nome,
+setor ou ramal, mapa do estado, impressão em A4 e uma área de gestão em que cada pessoa edita só a
+parte que lhe cabe. Um produto só, em fases: os repositórios ficam separados porque a stack muda, e
+cada fase anterior continua pública como evidência.
 
 | Fase | Stack | O que entrega | Estado |
 |:--|:--|:--|:--|
-| **[v3](https://github.com/EnzoMoulin/diretorio-contatos-v3)** | Laravel 13 · Blade · Postgres | listagens por canal com filtro por unidade/setor, impressão em A4, busca de ramais e APIs REST compatíveis com a v2 | em desenvolvimento |
+| **[v3](https://github.com/EnzoMoulin/diretorio-contatos-v3)** | Laravel 13 · Blade · Postgres | listagens por canal com filtro por unidade/setor, impressão em A4, busca de ramais e API REST no formato da v2 | em desenvolvimento |
 | **[v2](https://github.com/EnzoMoulin/diretorio-contatos-v2)** | Python stdlib · SQLite | APIs REST, login Google, 94 testes e testes de navegador no CI | pronto; demo a caminho |
 | **v1** | Apps Script · Sheets | MVP original, espelho sanitizado e congelado | privado (código institucional) |
 
@@ -35,8 +37,10 @@ porque a stack muda; cada fase anterior continua pública como evidência.
 </div>
 
 **v3** é a versão atual: Laravel 13 + Blade no mesmo processo que serve HTML e JSON, Postgres no
-Neon e CI com Pest, Pint, Larastan, testes de acessibilidade (axe-core, critérios AA) e comparação de contrato entre versões. Próximos
-passos: fechar a comparação de contatos entre as versões e o mapa por comarca.
+Neon e CI com Pest, Pint, Larastan, testes de acessibilidade (axe-core, critérios AA) e comparação de
+contrato entre versões. Próximos passos: fechar a comparação de contatos entre as versões e o mapa
+por comarca. Para revisar código, os pontos de entrada estão em
+[`apps/web/app/Actions`](https://github.com/EnzoMoulin/diretorio-contatos-v3/tree/main/apps/web/app/Actions).
 
 **v2** é a reescrita em Python (só biblioteca padrão): 94 testes, login Google, modo somente-leitura e
 CI em duas configurações. O demo público sai no Render (plano free); o repositório já tem o passo a passo de deploy.
