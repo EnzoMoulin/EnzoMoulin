@@ -11,9 +11,9 @@ Vitória, ES · [LinkedIn](https://www.linkedin.com/in/enzodadaltomoulin) · [E-
 
 </div>
 
-Dois anos de estágio no Laboratório de Inovação e IA do TJES, onde concebi e desenvolvi o MVP do
-diretório institucional de contatos: **1.800+ contatos de 69 comarcas**. O produto evoluiu em fases —
-Google Apps Script, Python e Laravel — e é o eixo deste perfil.
+Dois anos de estágio no TJES, os últimos cinco meses no Laboratório de Inovação e IA, onde concebi e
+desenvolvi o MVP do diretório institucional de contatos: **1.800+ contatos de 69 comarcas**. O produto
+evoluiu em fases — Google Apps Script, Python e Laravel — e é o eixo deste perfil.
 
 ## Diretório de Contatos
 
