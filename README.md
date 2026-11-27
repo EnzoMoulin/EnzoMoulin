@@ -2,7 +2,7 @@
 
 <img src="assets/banner.png" alt="Enzo Dadalto Moulin — desenvolvedor júnior full stack: PHP, Laravel, Python, JavaScript e SQL" width="100%">
 
-**Buscando a primeira vaga CLT júnior** em back-end, front-end ou full stack.<br>
+**Buscando a primeira vaga júnior — CLT ou PJ —** em back-end, front-end ou full stack.<br>
 Remota, híbrida ou presencial na Grande Vitória/ES. Também aberto a **freelas**.
 
 Vitória, ES · [LinkedIn](https://www.linkedin.com/in/enzodadaltomoulin) · [E-mail](mailto:dadaltoenzo@gmail.com)
@@ -26,8 +26,16 @@ porque a stack muda; cada fase anterior continua pública como evidência.
 | **[v2](https://github.com/EnzoMoulin/diretorio-contatos-v2)** | Python stdlib · SQLite | APIs REST, OAuth Google, 94 testes e fumaça Playwright no CI | pronto; demo a caminho |
 | **v1** | Apps Script · Sheets | MVP original, espelho sanitizado e congelado | privado (código institucional) |
 
+<div align="center">
+  <a href="https://github.com/EnzoMoulin/diretorio-contatos-v2">
+    <img src="assets/produto-v2.gif" alt="Fase 2 do diretório de contatos: busca, mapa e ficha do contato" width="720">
+  </a>
+  <br>
+  <sub>Fase 2 (v2), Python + SQLite: busca, mapa e ficha do contato.</sub>
+</div>
+
 **v3** é a versão atual: Laravel 13 + Blade no mesmo processo que serve HTML e JSON, Postgres no
-Neon e CI com Pest, Pint, Larastan, acessibilidade WCAG AA e comparador de contrato. Próximos
+Neon e CI com Pest, Pint, Larastan, testes de acessibilidade (axe-core, critérios AA) e comparador de contrato. Próximos
 passos: fechar o comparador de `contatos` e o mapa por CEP.
 
 **v2** é a reescrita em Python só-stdlib: 94 testes, login Google, modo somente-leitura e duas
@@ -57,7 +65,7 @@ pensada para aplicação remota e assíncrona.
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
 </p>
 
-Testes automatizados em todo PR, acessibilidade WCAG AA e comparação de contrato entre versões.
+No diretório de contatos: testes em todo PR, acessibilidade medida com axe-core (critérios AA) e comparação de contrato entre versões.
 Nenhum dado real nos repositórios públicos: os demos usam base fictícia e mascarada.
 
 ---
