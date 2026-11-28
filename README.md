@@ -12,15 +12,16 @@ Vitória, ES · [LinkedIn](https://www.linkedin.com/in/enzodadaltomoulin) · [E-
 </div>
 
 Dois anos de estágio no TJES, os últimos cinco meses no Laboratório de Inovação e IA, onde concebi e
-desenvolvi o MVP do diretório institucional de contatos: **1.800+ contatos de 69 comarcas**. O produto
-evoluiu em fases — Google Apps Script, Python e Laravel — e é o eixo deste perfil.
+desenvolvi o MVP do diretório institucional de contatos: **1.807 contatos em 69 comarcas e na
+Sede**. O produto evoluiu em fases — Google Apps Script, Python e Laravel — e é o eixo deste perfil.
 
 ## Diretório de Contatos
 
 Reúne telefones, e-mails, WhatsApp e ramais de fóruns e unidades numa consulta só: busca por nome,
 setor ou ramal, mapa do estado, impressão em A4 e uma área de gestão em que cada pessoa edita só a
-parte que lhe cabe. Um produto só, em fases: os repositórios ficam separados porque a stack muda, e
-cada fase anterior continua pública como evidência.
+parte que lhe cabe — na v2; na v3, as permissões por escopo estão modeladas e o painel está a caminho.
+Um produto só, em fases: os repositórios ficam separados porque a stack muda, e cada fase anterior
+continua pública como evidência.
 
 | Fase | Stack | O que entrega | Estado |
 |:--|:--|:--|:--|
@@ -39,8 +40,8 @@ cada fase anterior continua pública como evidência.
 **v3** é a versão atual: Laravel 13 + Blade no mesmo processo que serve HTML e JSON, Postgres no
 Neon e CI com Pest, Pint, Larastan, testes de acessibilidade (axe-core, critérios AA) e comparação de
 contrato entre versões. Próximos passos: fechar a comparação de contatos entre as versões e o mapa
-por comarca. Para revisar código, os pontos de entrada estão em
-[`apps/web/app/Actions`](https://github.com/EnzoMoulin/diretorio-contatos-v3/tree/main/apps/web/app/Actions).
+por comarca. Para revisar código, os pontos de entrada estão na seção
+[`O que olhar no código`](https://github.com/EnzoMoulin/diretorio-contatos-v3#o-que-olhar-no-código).
 
 **v2** é a reescrita em Python (só biblioteca padrão): 94 testes, login Google, modo somente-leitura e
 CI em duas configurações. O demo público sai no Render (plano free); o repositório já tem o passo a passo de deploy.
